@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GestureImageView">
+        <attr name="gi_max_scale" format="float" />
+        <attr name="gi_min_scale" format="float" />
+        <attr name="gi_start_scale" format="float" />
+        <attr name="gi_scale_type" format="string" />
+        <attr name="gi_start_x" format="string" />
+        <attr name="gi_start_y" format="string" />
+        <attr name="gi_strict" format="boolean" />
+        <attr name="gi_recycle" format="boolean" />
+    </declare-styleable>
+</resources>
