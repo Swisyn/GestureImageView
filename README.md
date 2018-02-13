@@ -39,7 +39,7 @@ Configured as View in layout.xml
 
 	<LinearLayout 
 	    xmlns:android="http://schemas.android.com/apk/res/android"
-	    xmlns:gesture-image="http://schemas.polites.com/android"
+	    xmlns:app="http://schemas.polites.com/android"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent">
 
@@ -48,9 +48,9 @@ Configured as View in layout.xml
 	      android:layout_width="fill_parent"
 	    	android:layout_height="wrap_content" 
 	    	android:src="@drawable/image"
-	    	gesture-image:min-scale="0.1"
-	    	gesture-image:max-scale="10.0"
-	    	gesture-image:strict="false"/>
+	    	app:gi_min_scale="0.1"
+	    	app:gi_max_scale="10.0"
+	    	app:gi_strict="false"/>
 	    	
 	</LinearLayout>
 ```
@@ -82,6 +82,7 @@ Configured Programmatically
 	        layout.addView(view);
 	    }
 	}
-	```
+```
   
-  #### All pull requests are accepted, let's make this library great again! :P
+  
+#### All pull requests are accepted, let's make this library great again! :P
